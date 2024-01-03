@@ -1,0 +1,11 @@
+.title{
+    color:salmon;
+    font-family: system-ui;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

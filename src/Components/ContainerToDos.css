@@ -1,0 +1,62 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px;
+}
+.Container form{
+    display: flex;
+    gap:20px;
+}
+.todo{
+    width: 100%;
+    max-width: 400px;
+    background-color: #bbb6b6;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    margin: 20px auto;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.todoList{
+    width: 100%;
+    max-width: 500px;
+    background-color: #a0a0a0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    margin: 20px auto;
+}
+.Formulario{
+    display: flex;
+    gap: 10px;
+}   
+
+.Formulario button{
+    background-color: #d573b5;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    animation: hola;
+}
+.todo p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+
+}
+
+.deleteIcon{
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    bottom: 45px;
+    color: rgb(32, 66, 38);
+}
