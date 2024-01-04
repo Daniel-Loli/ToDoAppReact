@@ -1,5 +1,5 @@
 module.exports = {
-    mode: 'development',
+  mode: 'development',
     entry: './app.js', // ruta al entry point
     output: {
       path: __dirname + '/dist', // path donde webpack dejarǻ los archivos.
@@ -41,5 +41,8 @@ module.exports = {
         },
       ],
     },
+    optimization: {
+      minimize: process.env.NODE_ENV === 'production', // Minimiza solo en producción
+  },
   };
   
